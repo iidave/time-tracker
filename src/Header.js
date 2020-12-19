@@ -14,7 +14,7 @@ class Header extends Component{
                         <h2 className="client-bullet">•</h2>
                         <h2 className="client-name">Client Name</h2>
                     </div>
-                    <h1 className="main-heading">Activity Description</h1>
+                    <h1 className="main-heading white">Activity Description</h1>
                 </div>
                 <div className="div-block-2">
                     <Watch className="image-3"/>

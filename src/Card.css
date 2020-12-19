@@ -37,12 +37,12 @@
   }
   
   .heading {
-    /* display: block; */
-    /* width: auto; */
-    /* height: 40px; */
-    /* min-width: 50px; */
-    /* margin-top: 0px; */
-    /* padding-top: -20px; */
+    display: block;
+    width: auto;
+    height: 40px;
+    min-width: 50px;
+    margin-top: 0px;
+    padding-top: -20px;
     margin-bottom: 0px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
