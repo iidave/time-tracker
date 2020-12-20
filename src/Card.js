@@ -8,7 +8,7 @@ const Card = () => {
     return (
         <div className = 'bg-light-gray dib w-90 h-auto br3 pa3 ma2 ml4 grow bw2 shadow-5'>
             <Header />
-            <div className = 'relative h1 ma3 pa3'>
+            <div className = 'relative h1 ma3 '>
                     <Arrow />
                     <h2 className = 'heading dib left'>Today  </h2>
                     <h2 className = 'heading dib left'>12/30/2020</h2>
