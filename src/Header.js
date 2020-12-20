@@ -7,19 +7,19 @@ import { ReactComponent as Start } from './start.svg';
 class Header extends Component{
     render() {
         return (
-            <div className="header">
-                <div className="client-info main">
-                    <div className="jobno-client">
-                        <h2 className="job-num head">#0100 </h2>
-                        <h2 className="client-bullet">•</h2>
-                        <h2 className="client-name">Client Name</h2>
+            <div className="header"> {/* Keep Header css */}
+                <div className="mt1">
+                    <div className = "flex nt2 relative">
+                        <h2 className = 'fw6 f5 white-70 pt2 pl3 pr2'>#0100 </h2>
+                        <h2 className = 'fw6 f5 white-70 pa2'>•</h2>
+                        <h2 className = 'fw6 f5 white-70 pa2'>Client Name</h2>
                     </div>
-                    <h1 className="main-heading white">Activity Description</h1>
+                    <h2 className = "white pa3 nt4 w-100">Activity Description</h2>
                 </div>
-                <div className="div-block-2">
-                    <Watch className="image-3"/>
-                    <h3 className="timeclock">01:32:45</h3>
-                    <Start className="image-2"/>
+                <div className="flex mt3">
+                    <Watch className="pa3 nr2"/>
+                    <h3 className="fw6 f5 white-70">01:32:45</h3>
+                    <Start className="pa2 ml1"/>
                 </div>
             </div>
         );
