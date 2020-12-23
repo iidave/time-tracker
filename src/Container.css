@@ -18,3 +18,7 @@
  .blueBkgd {
   background-color: var(--blue);
  }
+
+ .blueText {
+   color: var(--blue);
+ }

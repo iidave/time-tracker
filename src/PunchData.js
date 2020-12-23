@@ -1,0 +1,62 @@
+export const PunchData = [
+    {
+        id: 0,
+        jobNo: 'DW_0001',
+        customer: 'OBDK',
+        jobDesc: 'Refine, update logos, graphics',
+        task: 'Design', 
+        rate: '50',
+        date: '10/1/2018',
+        punchIn: '18:00',
+        punchOut: '19:00',
+        elapseTime: '1:00',
+        charge: '50',
+        notes: 'OBDK logo refinement',
+        
+    },
+    {
+        id: 1,
+        jobNo: 'DW_0002',
+        customer: 'KW logo',
+        jobDesc: 'Change to KidWings.com',
+        task: 'Design', 
+        rate: '50',
+        date: '10/4/2018',
+        punchIn: '18:00',
+        punchOut: '19:00',
+        elapseTime: '1:00',
+        charge: '50',
+        notes: 'KW logo refinement',
+        
+    },
+    {
+        id: 2,
+        jobNo: 'DW_0003',
+        customer: 'OBDK',
+        jobDesc: 'Refine, update logos, graphics',
+        task: 'Production', 
+        rate: '50',
+        date: '10/6/2018',
+        punchIn: '18:00',
+        punchOut: '19:00',
+        elapseTime: '1:00',
+        charge: '50',
+        notes: 'Pellet 1-pk',
+        
+    },
+    {
+        id: 3,
+        jobNo: 'DW_0004',
+        customer: 'WERC',
+        jobDesc: 'Design templat for 5x7, 600x600px 3.5x8.5 insert',
+        task: 'Illustration', 
+        rate: '50',
+        date: '10/9/2018',
+        punchIn: '18:00',
+        punchOut: '19:00',
+        elapseTime: '1:00',
+        charge: '50',
+        notes: 'Pcard SoMe tmplt',
+        
+    }
+];
