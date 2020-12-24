@@ -1,16 +1,19 @@
 import React from 'react';
 import "./Container.css";
-import InputHd from './InputHd';
-import Card from './Card'
+import Header from './Header';
+import Card from './Card';
+import CardClosed from './CardClosed';
+import JobEntry from './JobEntry';
 
 
 const Container = () => {
         return (
             <div className = 'container'> {/* Keep Container css */}
-                <InputHd className = "z-999"/>
+                <Header />
+                {/* <JobEntry /> */}
                 <Card />
-                <Card className = "z-0"/>
-                <Card className = "z-0"/>
+                <CardClosed />
+                
             </div>
         );
     }

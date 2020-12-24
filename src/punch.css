@@ -1,119 +1,16 @@
 :root {
   --blue: #122edb;
+  --highlight: #FBF1A9;
 }
 
 .blueText {
   color: var(--blue);
 }
 
-.card {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: rgba(151, 151, 151, 0.3);
-    margin-top: 0px;
-    margin-bottom: -3px;
-    padding-top: 5px;
-    /* padding-right: 10px; */
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-  
-  .day {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: auto;
-    min-width: 100px;
-    padding-left: 10px;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-  
-  .heading {
-
-    margin-bottom: 0px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-size: 1em;
-  }
-  .left {
-    padding-left: 5px;
-  }
-  .right{
-    padding-right: 20px;
-  }
-  .bullet {
-    padding-left: 10px;
-    margin-right: -25px;
+.bg-highlight {
+  background-color:white;
 }
 
-  .image {
-    margin-top: 20px;
-    /* padding-top: 12px; */
-    /* padding-right: 10px; */
-  }
-
-  .image.down.closed {
-    margin-top: 0px;
-    -webkit-transform: rotate(-180deg) translate(15px, 0px);
-    -ms-transform: rotate(-180deg) translate(15px, 0px);
-    transform: rotate(-180deg) translate(15px, 0px);
-  }
-
-  .today-date {
-    height: 40px;
-    margin-top: 4px;
-    margin-bottom: 0px;
-    font-size: 13px;
-    font-weight: 400;
-  }
-
-  .daily-total {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
-  }
-
-  .flex-left-just {
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
-
-  .main-heading {
-    margin-top: 2px;
-    margin-bottom: 20px;
-    color: #777;
-    font-size: 1.5em;
-    line-height: 24px;
-    -o-object-fit: fill;
-    object-fit: fill;
-  }
-
-  .minus-top {
-      margin-top: -10px;
-  }
-  
+.bg-highlight:hover {
+  background-color: var(--highlight);
+}

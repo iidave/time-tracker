@@ -1,99 +1,18 @@
-.card {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: rgba(151, 151, 151, 0.3);
-    margin-top: 0px;
-    margin-bottom: -3px;
-    padding-top: 5px;
-    /* padding-right: 10px; */
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-  
-  .day {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: auto;
-    min-width: 100px;
-    padding-left: 10px;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-  }
-  
-  .heading {
-    display: block;
-    width: auto;
-    height: 40px;
-    min-width: 50px;
-    margin-top: 0px;
-    padding-top: -20px;
-    margin-bottom: 0px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-size: 1em;
-  }
 
-  
-  .left {
-    padding-left: 20px;
-  }
-  .right{
-    padding-right: 20px;
-  }
+:root {
+  --blue: #122edb;
+  --highlight: #FFFCEB;
+}
 
-  .image {
-    margin-top: 20px;
-    /* padding-top: 12px; */
-    /* padding-right: 10px; */
-  }
+.blueText {
+  color: var(--blue);
+}
 
-  .image.down.closed {
-    margin-top: 0px;
-    -webkit-transform: rotate(-180deg) translate(15px, 0px);
-    -ms-transform: rotate(-180deg) translate(15px, 0px);
-    transform: rotate(-180deg) translate(15px, 0px);
-  }
+.highlight {
+  background-color: var(--highlight);
+}
 
-  .today-date {
-    height: 40px;
-    margin-top: 4px;
-    margin-bottom: 0px;
-    font-size: 13px;
-    font-weight: 400;
-  }
-
-  .daily-total {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
-  }
-
-  .flex-left-just {
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
+.closed {
+  height: 2rem;
+  overflow: hidden;
+}
