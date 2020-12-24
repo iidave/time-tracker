@@ -23,7 +23,7 @@ const Punch = (props) => {
             <h2 className = "f4 black-70 pa3 nt4 w-100">{props.jobDesc}</h2>
           </div>
 
-          <div className = 'flex flex-wrap nt4'>
+          {/* <div className = 'flex flex-wrap nt4'>
             <div className = "ma2 ml3 mt3 w-auto">
               <h2 className = "fw5 f6 black-40 lh-copy nt2 mb1">START</h2>
               <div className = "bg-white flex mt3 ba b--black-10 h2 db w-auto ">
@@ -47,8 +47,41 @@ const Punch = (props) => {
                   <a class="f6 link dim br2 ph3 pv2 mb2 white blueBkgd h2 nr6 ml3" href="#0">SUBMIT</a>
               </div>
                   
-            </div>
-        </div>
+            </div> */}
+            <section className = 'punchArea cf w-100 pv3 ph4-ns h-auto'> 
+              <div className = 'fl w-20 pa2'>
+                  <h2 className = "fw5 f5 black-40 lh-copy nt2 mb1">START</h2>
+                  <div className = "ba b--black-10 bg-white tc pv1 flex flex-wrap h-auto ">
+                  <h3 className = "fw6 f5 blueText mt1 pl2">{props.punchIn}</h3>
+                  
+                  <h3 className = "fw1 f5 mt1 pl2">{props.punchDate}</h3>
+                </div>
+              </div>
+
+              <div className = 'fl w-20 pa2'>
+                  <h2 className = "fw5 f5 black-40 lh-copy nt2 mb1">STOP</h2>
+                <div className = "ba b--black-10 bg-white tc pv1 flex flex-wrap h-auto">
+                  <h3 className = "fw6 f5 blueText mt1 pl2">{props.punchOut}</h3>
+                  <h3 className = "fw1 f5 mt1 pl2">{props.punchDate}</h3>
+                </div>
+              </div>
+
+              <div className = 'fl w-50 pa2'>
+                  <h2 className = "fw5 f5 black-40 lh-copy nt2 mb1">NOTES</h2>
+                <div className = "ba b--black-10 bg-white tc pv1 flex flex-wrap h-auto">
+                  <h3 className = "fw1 f5 mt1 pl2">{props.punchNotes}</h3>
+                </div>
+              </div>
+
+              <div className = 'fl w-10 pa2'>
+              <h2 className = "fw5 f9 white lh-copy nt2 mb1">-</h2>
+                  <a class="f6 link dim br2 ph2 pv2 white blueBkgd h2" href="#0">SUBMIT</a>
+              </div>
+
+            </section>
+
+            
+            
         </div>
     );
 }
