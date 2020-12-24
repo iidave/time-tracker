@@ -20,7 +20,7 @@ const Punch = (props) => {
                 </div>
               </div>
 
-            <h2 className = "f4 black-70 pa3 nt4 w-100">{props.jobDesc}</h2>
+            <h2 className = "f4 black-70 ph3 nt2 w-100">{props.jobDesc}</h2>
           </div>
 
           {/* <div className = 'flex flex-wrap nt4'>
