@@ -7,7 +7,7 @@ import { ReactComponent as Arrow } from './show-details.svg';
 
 const Card = (props) => {
     return (
-        <div className = 'bg-light-gray w-90 center h-auto pa3 hover-bg-light-yellow bw2 shadow-5 z-0 mt2 mb2'>
+        <div className = 'bg-light-gray w-90 center h-auto pa3 hover-bg-black-10 bw2 shadow-5 z-0 mt2 mb2'>
             {/* <Header /> */}
             <div className = 'relative h1 ma3'>
                     <Arrow />

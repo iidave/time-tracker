@@ -1,7 +1,3 @@
-:root {
-  --blue: #122edb;
-  --highlight: #FBF1A9;
-}
 
 .blueText {
   color: var(--blue);
