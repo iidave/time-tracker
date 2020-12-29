@@ -1,15 +1,33 @@
-
-:root {
+/* :root {
   --blue: #5110a7;
   --highlight:  #fef5ff;
 }
 
-.blueText {
+.hiliteClr {
   color: var(--blue);
 }
 
 .highlight {
   background-color: var(--highlight);
+} */
+
+:root {
+  --hiliteClr: rgb(81, 16, 167);
+  --hiLiteClr-washed: rgb(214, 200, 233);
+  --bkgdClr: #f1f1f1;
+  --bkgdClr2: #e1e1e1;
+}
+
+.bkgdColor {
+  background-color: var(--bkgdClr);
+}
+
+/* .bkgdColor:hover {
+  background-color: var(--bkgdClr2);
+} */
+
+.highlightText {
+  color: var(--hiliteClr);
 }
 
 .closed {

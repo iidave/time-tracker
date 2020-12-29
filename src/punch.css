@@ -1,12 +1,32 @@
-
-.blueText {
-  color: var(--blue);
+.buttonClr {
+  background-color: var(--hiliteClr);
 }
 
 .bg-highlight {
-  background-color:white;
+  /* background-color: white; */
 }
 
 .bg-highlight:hover {
-  background-color: var(--highlight);
+  background: linear-gradient(114deg, rgba(214,200,233,1) 0%, rgba(216,241,241,1) 50%, rgba(241,241,241,1) 80%);
+  transition: .15s ease-in;
+}
+.down {
+  padding-top: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+
+  line-height: 1em;
+}
+
+.button-down {
+  margin-bottom: 18px;
+  /* background-color: pink; */
+}
+
+.punchArea {
+  margin-left: -1.7em;
+}
+
+.reduce-right {
+  margin-right: 20px;
 }

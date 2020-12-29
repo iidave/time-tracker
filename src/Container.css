@@ -12,13 +12,21 @@
   }
 
  :root {
-   --blue: #5110a7;
+   --hiliteClr: #5110a7;
+   --hiLiteClr-washed: rgb(214, 200, 233);
+   --bkgdClr: rgb(241, 241, 241);
+   --bkgdClr2 : #e1e1e1;
  }
 
- .blueBkgd {
-  background-color: var(--blue);
+ .bkgdColor {
+  background-color: var(--bkgdClr);
  }
 
- .blueText {
-   color: var(--blue);
+ /* .bkgdColor:Hover {
+  background-color: var(--bkgdClr2);
+  transition: .15s ease-in;
+ } */
+
+ .highlightText {
+   color: var(--hiliteClr);
  }

@@ -5,3 +5,12 @@
     border-radius: 3px;
     background-color: pink;
 }
+
+.bg-hilt-wht {
+    /* background-color: var(--bkgdClr); */
+}
+
+.bg-hilt-wht:hover {
+    background: linear-gradient(114deg, rgba(214,200,233,1) 0%, rgba(216,241,241,1) 50%, rgba(241,241,241,1) 80%);
+    transition: .15s ease-in;
+  }
