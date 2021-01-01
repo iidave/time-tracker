@@ -1,6 +1,6 @@
 export const PunchData = [
     {
-        id: 0,
+        id: 1,
         jobNo: 'DW_0001',
         customer: 'OBDK',
         jobDesc: 'Refine, update logos, graphics',
@@ -15,7 +15,7 @@ export const PunchData = [
         
     },
     {
-        id: 1,
+        id: 2,
         jobNo: 'DW_0002',
         customer: 'KW logo',
         jobDesc: 'Change to KidWings.com',
@@ -30,7 +30,7 @@ export const PunchData = [
         
     },
     {
-        id: 2,
+        id: 3,
         jobNo: 'DW_0003',
         customer: 'OBDK',
         jobDesc: 'Refine, update logos, graphics',
@@ -45,7 +45,7 @@ export const PunchData = [
         
     },
     {
-        id: 3,
+        id: 4,
         jobNo: 'DW_0004',
         customer: 'WERC',
         jobDesc: 'Design templat for 5x7, 600x600px 3.5x8.5 insert',
@@ -60,7 +60,7 @@ export const PunchData = [
         
     },
     {
-        id: 4,
+        id: 5,
         jobNo: 'DW_0005',
         customer: 'OBDK',
         jobDesc: 'Refine, update logos, graphics',
@@ -75,7 +75,7 @@ export const PunchData = [
         
     },
     {
-        id: 5,
+        id: 6,
         jobNo: 'DW_0006',
         customer: 'KW logo',
         jobDesc: 'Change to KidWings.com',
@@ -90,7 +90,7 @@ export const PunchData = [
         
     },
     {
-        id: 6,
+        id: 7,
         jobNo: 'DW_0007',
         customer: 'OBDK',
         jobDesc: 'Refine, update logos, graphics',
@@ -105,7 +105,7 @@ export const PunchData = [
         
     },
     {
-        id: 7,
+        id: 8,
         jobNo: 'DW_0008',
         customer: 'WERC',
         jobDesc: 'Design templat for 5x7, 600x600px 3.5x8.5 insert',
@@ -118,5 +118,50 @@ export const PunchData = [
         charge: '50',
         notes: 'Pcard SoMe tmplt',
         
-    }
+    },
+    {
+        id: 9,
+        jobNo: 'DW_0009',
+        customer: 'KW logo',
+        jobDesc: 'Change to KidWings.com',
+        task: 'Design', 
+        rate: '50',
+        date: '01/03/2021',
+        punchIn: '18:00',
+        punchOut: '19:00',
+        elapseTime: '1:00',
+        charge: '50',
+        notes: 'KW logo refinement',
+    
+},
+{
+        id: 10,
+        jobNo: 'DW_0010',
+        customer: 'OBDK',
+        jobDesc: 'Refine, update logos, graphics',
+        task: 'Production', 
+        rate: '50',
+        date: '01/03/2021',
+        punchIn: '18:00',
+        punchOut: '19:00',
+        elapseTime: '1:00',
+        charge: '50',
+        notes: 'Pellet 1-pk',
+    
+},
+{
+        id: 11,
+        jobNo: 'DW_0011',
+        customer: 'WERC',
+        jobDesc: 'Design templat for 5x7, 600x600px 3.5x8.5 insert',
+        task: 'Illustration', 
+        rate: '50',
+        date: '01/03/2021',
+        punchIn: '18:00',
+        punchOut: '19:00',
+        elapseTime: '1:00',
+        charge: '50',
+        notes: 'Pcard SoMe tmplt',
+    
+}
 ];

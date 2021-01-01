@@ -1,6 +1,7 @@
 import React from 'react';
 import "./punch.css";
 import { ReactComponent as Arrow } from './show-details.svg';
+import { ReactComponent as Start } from './start.svg';
 
 
 const Punch = (props) => {
@@ -47,9 +48,12 @@ const Punch = (props) => {
                 </div>
               </div>
 
-              <div className = 'fl w-10 pa2'>
-              <h2 className = 'fw1 f5 mt1 pl3 button-down'>&nbsp;</h2>
-                  <a class='link dim br2 ph2 pv3 white buttonClr fw6 f5 mt1 pl3 down' href="#0">START</a>
+              <div>
+              <h2 className = 'button-down'>&nbsp;</h2>
+              <div class='start-button'>
+                  <Start className ='pt2 pl2 pr2'/>
+                  <a className='start-link' href="#0">START</a>
+              </div>
               </div>
 
             </section>

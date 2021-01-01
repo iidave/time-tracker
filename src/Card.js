@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header';
 import Punch from './Punch';
 import { PunchData } from './PunchData';
 import "./Card.css";

@@ -13,6 +13,7 @@
 
  :root {
    --hiliteClr: #5110a7;
+   --hiliteClrHvr: #752ad7;
    --hiLiteClr-washed: rgb(214, 200, 233);
    --bkgdClr: rgb(241, 241, 241);
    --bkgdClr2 : #e1e1e1;

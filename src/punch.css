@@ -11,7 +11,7 @@
   transition: .15s ease-in;
 }
 .down {
-  padding-top: 12px;
+  padding-top: 11px;
   padding-left: 6px;
   padding-right: 6px;
 
@@ -19,7 +19,7 @@
 }
 
 .button-down {
-  margin-bottom: 18px;
+  margin-bottom: 8px;
   /* background-color: pink; */
 }
 
@@ -29,4 +29,32 @@
 
 .reduce-right {
   margin-right: 20px;
+}
+.start-button {
+  height: 54px;
+  width: 124px;
+  margin-top: -27px;
+  padding: 4px 12px 6px 6px;
+  color: white;
+  /* line-height: 3px; */
+  display: inline-block;
+  background-color: var(--hiliteClr);
+  border-radius: 3px;
+  position: relative;
+}
+
+.start-button:hover {
+  background-color: var(--hiliteClrHvr);
+}
+
+.start-link {
+  height: 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-top: 1em;
+  position: absolute;
+  vertical-align: middle;
+  
 }
