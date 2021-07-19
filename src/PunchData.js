@@ -6,7 +6,7 @@ export const PunchData = [
         jobDesc: 'Refine, update logos, graphics',
         task: 'Design', 
         rate: '50',
-        date: '12/29/2200',
+        date: '12/29/2020',
         punchIn: '18:00',
         punchOut: '19:00',
         elapseTime: '1:00',
